@@ -1,0 +1,215 @@
+.blog {
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    padding-left: 64px;
+    padding-right: 64px;
+}
+.blog .title h1{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+    padding-bottom: 60px;
+}
+.blog .blog-category{
+    display: flex;
+    justify-content: start;
+    padding-bottom: 40px;
+}
+.btn-category{
+    padding: 2px 4px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff;
+    text-align: center;
+    margin-right: 30px;
+}
+.btn-category.orange{
+    background: #F2593F;
+}
+.btn-category.purple{
+    background: #A437B1;
+}
+.btn-category.pink{
+    background: #D82E80;
+}
+.btn-category svg{
+    width: 10px;
+    height: 10px;
+}
+.blog-post-item{
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 0 20px -7px;
+    margin-bottom: 30px;
+}
+.blog-header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.blog-post-item img{
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+}
+.blog-header a img{
+    padding-bottom: 0px;
+}
+.blog-header .btn-category{
+    margin-top: 15px;
+}
+.blog-post-item .title{
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.blog-post-item .title a{
+    font-size: 20px;
+    line-height: 24px;
+    color: #353B43;
+}
+.blog-post-item .desc{
+    padding-bottom: 30px;
+    font-size: 16px;
+    line-height: 21px;
+    color: #575E68;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.blog-footer{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 16px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.blog-footer p{
+    color: #8B97A8;
+}
+.blog-footer a{
+    color: #6C63FF;
+}
+.blog-footer a:hover{
+    font-weight: bold;
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+}
+.pagination a{
+    font-size: 24px;
+    line-height: 28px;
+    color: #6C63FF;
+    padding-left: 15px;
+}
+.pagination a.active, .pagination a:hover{
+    font-weight: bold;
+}
+.sidebar h2{    
+    margin-top: -60px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #353B43;
+    padding-bottom: 30px;
+}
+.sidebar svg{
+    position: absolute;
+    top: 0;
+    right: 15px;
+    width: 30px;
+    height: 30px;
+}
+.sidebar-blog{
+    background: #FFFFFF;
+    box-shadow: 0 0 20px -7px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+}
+img.img-sidebar-blog {
+    width: 100%;
+    height: auto;
+}
+.sidebar-blog a{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: #353B43;
+    padding-bottom: 10px;
+}
+.sidebar-blog-readme{
+    text-align: right;
+    padding-bottom: 20px;
+}
+.sidebar-blog-readme a{
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+    color: #6C63FF;
+}
+@media (min-width: 768px){}
+@media (max-width: 1200px){
+    .blog {
+        padding-top: 40px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .blog .blog-category .btn-category{
+        margin-right: 20px;
+    }
+    .sidebar h2{
+        margin-top: 30px;
+    }
+}
+@media (max-width: 992px){
+    .blog .title h1{
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    .blog .blog-category{
+        justify-content: center;
+    }
+    .blog-post-item .desc{
+        padding-bottom: 15px;
+    }
+}
+@media (max-width: 768px){}
+@media (max-width: 576px){
+    .blog .title h1{
+        font-size: 24px;
+        line-height: 28px;
+        padding-bottom: 30px;
+    }
+    .blog .blog-category .btn-category{
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .blog-header .btn-category{
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .blog-post-item .title{
+        padding-bottom: 11px;
+    }
+    .blog-post-item .title a{
+        font-size: 18px;
+        line-height: 20px;
+        color: #353B43;
+    }
+    .blog-post-item .desc{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .blog-footer{
+        padding-bottom: 20px;
+    }
+}

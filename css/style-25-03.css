@@ -1,0 +1,369 @@
+.game-settings {
+    width: 100%;
+    padding-top: 60px;
+    padding-left: 64px;
+    padding-right: 64px;
+}
+.block-one-second{
+    background: #ffffff;
+    box-shadow: 0px -4px 20px rgb(182 178 223 / 10%), 0px 10px 20px rgb(182 179 223 / 25%);
+    border-radius: 10px;
+}
+.block-one-second-text{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+.block-one-second-text h1{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+    color: #353B43;
+    padding-bottom: 20px;
+}
+.block-one-second-text p{
+    font-size: 18px;
+    line-height: 28px;
+    color: #575E68;
+}
+.block-one-second-text-btnsvg{
+    display: flex;
+    justify-content: center;
+}
+.block-one-second-text-btnsvg .mr-30{
+    margin-right: 30px;
+}
+.creating-a-game .title{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.creating-a-game .title h2{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;
+    color: #353B43;
+}
+.creating-a-game-items{
+    display: flex;
+    justify-content: flex-start;
+}
+.creating-a-game-items span{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    color: #6C63FF;
+}
+.creating-a-game-items p{
+    font-size: 16px;
+    line-height: 18px;
+    color: #575E68;
+    margin-left: 10px;
+}
+.game-settings .item-time .number, .item-time .separator{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.btn-custom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.btn-custom-fon{
+    width: 100%;
+    border: 2px solid #6C63FF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #6C63FF;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.btn-custom-fon svg{
+    width: 20px;
+    height: 20px;
+    fill: #6C63FF;
+    margin-right: 10px;
+}
+.btn-custom-fon:hover{
+    background: #6C63FF;
+    color: #FFFFFF;
+}
+.btn-custom-fon:hover svg{
+    fill: #FFFFFF;
+}
+.block-game-settings{
+    padding-top: 60px;
+}
+.block-game-settings .title h2{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 47px;
+    color: #353B43;
+    padding-bottom: 40px;
+}
+.form-game-setting-select, .form-game-setting-select-items, .form-game-setting-checkbox{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.form-game-setting-select-items label{
+    font-size: 16px;
+    line-height: 21px;
+    color: #575E68;
+    margin-bottom: 0;
+}
+.form-game-setting-select-items select{
+    margin-top: 20px;
+    padding: 15px 0 15px 20px;
+    background: #FFFFFF;
+    border: 1px solid #C9D2E0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    color: #6c63ff;
+    margin-bottom: 30px;
+}
+.form-game-setting-checkbox-items{
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 30px;
+}
+.form-game-setting-checkbox-items.mb-45{
+    margin-bottom: 45px;
+}
+.form-game-setting-checkbox-items input{
+    margin-right: 15px;
+}
+.form-game-setting-checkbox-items label{
+    font-size: 16px;
+    line-height: 21px;
+    color: #575E68;
+}
+.form-game-settings-textarea{
+    display: flex;
+    flex-direction: column;
+}
+.form-game-settings-textarea span{
+    font-size: 18px;
+    line-height: 23px;
+    color: #575E68;
+}
+.form-game-settings-textarea textarea{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.form-game-settings-textarea-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.form-game-settings-textarea-buttons .btn-fon{
+    border: 1px solid #6c63ff;
+}
+.form-game-settings-textarea-buttons .btn-white{
+    background: #FFFFFF;
+}
+.form-game-settings-textarea-buttons .btn-white:hover{
+    background: #6C63FF;
+}
+.form-game-settings-textarea-buttons button{
+    width: 132px;
+}
+.block-game-settings-result-search{
+    display: flex;
+    justify-content: space-between;
+}
+.result-select select, .result-search input{
+    padding: 13px 0 13px 20px;
+    background: #FFFFFF;
+    border: 1px solid #C9D2E0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    color: #6c63ff;
+}
+.result-search input{
+    float: right;
+}
+.result-search button{
+    position: absolute;
+    left: 33%;
+    top: 12px;
+    background: transparent;
+    border: none;
+}
+.result-search button svg{
+    width: 24px;
+    height: 24px;
+}
+form.search{
+    padding-bottom: 15px;
+}
+.block-one-second-text-btnsvg button{
+    background: transparent;
+    border: none;
+}
+@media (min-width: 1201px){
+    .block-one-second{
+        padding-left: 5%;
+    }
+    .form-game-setting-select-items select{
+        width: 50%;
+    }
+    .form-game-settings-textarea-buttons .btn-fon{
+        margin-right: 30px;
+    }
+    .result-select select, .result-search input{
+        width: 70%;
+    }
+}
+@media (max-width: 1500px){}
+@media (max-width: 1200px){
+    .game-settings{
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 0;
+    }
+    .block-one-second-text{
+        padding-left: 15px;
+    }
+    .creating-a-game{
+        padding-left: 15px;
+    }
+    .creating-a-game .title h2{
+        font-size: 20px;
+        line-height: 26px;
+        margin-bottom: 0;
+    }
+    .form-game-settings-textarea-buttons{
+        justify-content: start;
+        margin-bottom: 30px;
+    }
+    .form-game-settings-textarea-buttons button{
+        width: 150px;
+    }
+    .form-game-settings-textarea-buttons button.btn-fon{
+        margin-right: 30px;
+    }
+    .result-select select, .result-search input{
+        width: 100%;
+    }
+    .result-search button{
+        left: 5%;
+    }
+    .block-game-settings .title h2{
+        text-align: center;
+        margin-bottom: 0;
+        padding-bottom: 30px;
+    }
+}
+@media (max-width: 992px){
+    .game-settings .to-end-game{
+        margin-top: 0;
+        margin-bottom: 60px;
+    }
+    .creating-a-game{
+        padding-bottom: 30px;
+    }
+    .creating-a-game .title h2{
+        text-align: center;
+    }
+    .result-search input{
+        margin-top: 30px;
+    }
+    .result-search button{
+        left: 4%;
+        top: 42px;
+    }
+}
+@media (max-width: 768px){}
+@media (max-width: 767px){
+    .block-one-second-text{
+        padding-top: 30px;
+    }
+    .block-one-second-text{
+        padding-bottom: 40px;
+    }
+    .game-settings .to-end-game{
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .game-settings .to-end-game .item-time .number, .game-settings .to-end-game .item-time, .game-settings .to-end-game .separator{
+        font-size: 64px;
+        line-height: 74px;
+    }
+    .game-settings .to-end-game .item-time .text{
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .game-settings .to-end-game{
+        padding-bottom: 30px;
+    }
+    .game-settings .to-end-game{
+        margin-bottom: 40px;
+    }
+}
+@media (max-width: 576px){
+    .game-settings .block-one-second-text h1{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .game-settings .block-one-second-text p, .block-game-settings .title p{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .game-settings .block-one-second-text-btnsvg img{
+        height: 44px;
+    }
+    .game-settings .to-end-game{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .game-settings .to-end-game .item-time .number, .game-settings .to-end-game .item-time, .game-settings .to-end-game .separator{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .game-settings .to-end-game .item-time .text{
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .creating-a-game .title h2{
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .creating-a-game-items span, .creating-a-game-items p{
+        font-size: 14px;
+    }
+    .block-game-settings .title h2{
+        font-size: 24px;
+        line-height: 28px;
+        padding-bottom: 30px;
+        margin-bottom: 0;
+        text-align: center;
+    }
+    .form-game-setting-select-items label, .form-game-setting-checkbox-items label{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .form-game-setting-select-items select{
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .form-game-setting-checkbox-items, .form-game-setting-checkbox-items.mb-45{
+        margin-bottom: 20px;
+    }
+    .block-game-settings-result-search .form-game-setting-select-items, .block-game-settings-result-search .block-game-settings-search{
+        width: 100%;
+    }
+}

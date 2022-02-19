@@ -1,0 +1,490 @@
+.account-settings {
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    padding-left: 64px;
+    padding-right: 64px;
+}
+.account-settings .title h1{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+    color: #353B43;
+    padding-bottom: 60px;
+}
+.account-settings .blog-submit{
+    display: flex;
+    justify-content: start;
+    padding-top: 15px;
+}
+.blog-submit .btn{
+    width: 230px;
+}
+.blog-submit .btn.btn-fon{
+    width: 210px;
+    margin-right: 30px;
+}
+.change-info{
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0px 6.06977px 60.6977px rgb(150 188 232 / 25%);
+    padding: 30px 15px;
+    display: flex;
+    justify-content: start;
+}
+.change-pass{
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0px 6.06977px 60.6977px rgb(150 188 232 / 25%);
+    padding: 30px 15px;
+}
+.foto-upload img{
+    width: 198px;
+    height: 198px;
+}
+.foto-upload .btn-fon{
+    display: flex;
+    align-items: center;
+    width: 198px;
+    margin-top: 15px;
+}
+.foto-upload .btn-fon svg{
+    width: 24px;
+    height: 29px;
+    fill: #FFFFFF;
+    margin-right: 8px;
+}
+.change-info-form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.change-info-basic{
+    width: 100%;
+}
+.change-info .title, .change-pass .title{
+    display: flex;
+    align-content: center;
+}
+.change-info .title svg, .change-pass .title svg{
+    width: 48px;
+    height: 48px;
+    margin-right: 10px;
+}
+.change-info .title h2, .change-pass .title h2{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-self: center;
+}
+.change-info-input{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+}
+.change-info-input .form-control{
+    height: 40px;
+    width: 100%;
+    font-size: 18px;
+    line-height: 23px;
+    margin-bottom: 15px;
+}
+.change-info-input small{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: #8B97A8
+}
+.avatar-name-pay{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.avatar-name-pay p{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #353B43;
+    margin-bottom: 0;
+}
+.avatar-name-pay small{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #8B97A8;
+    padding-top: 15px;
+}
+.pay{
+    width: 100%;
+    padding-top: 60px;
+    padding-left: 64px;
+    padding-right: 64px;
+}
+.pay-cart{
+    background: #FFFFFF;
+    box-shadow: 0px -4px 20px rgba(182, 178, 223, 0.1), 0px 10px 20px rgba(182, 179, 223, 0.25);
+    border-radius: 10px;
+    padding: 30px 15px;
+    text-align: center;
+}
+.pay-avatar{
+    height: 130px;
+    width: 130px;
+    border: 4px solid #63FFB4;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+.pay-cart .check{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 53%;
+    top: 115px;
+    height: 42px;
+    width: 42px;
+    background: #ffffff;
+    box-shadow: 0px 6.06977px 60.6977px rgb(150 188 232);
+    border-radius: 50%;
+}
+.pay-cart .name{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #575E68;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.pay-cart .followers{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #575E68;
+    padding-bottom: 40px;
+}
+.pay-cart .pay-service{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 40px;
+    color: #353B43;
+    padding-bottom: 30px;
+}
+.pay-cart .pay-desc{
+    font-size: 18px;
+    line-height: 21px;
+    color: #575E68;
+    padding-bottom: 30px;
+}
+.pay-cart .pay-price{
+    font-size: 24px;
+    line-height: 31px;
+    color: #575E68;
+    padding-bottom: 60px;
+}
+.pay-cart .pay-btn{
+    display: flex;
+    justify-content: space-around;
+}
+.pay-cart .pay-btn .btn{
+    padding: 15px 0px;
+    width: 205px;
+}
+.due-date-cart .cart{
+    background: #FFFFFF;
+    box-shadow: 0px -4px 20px rgba(182, 178, 223, 0.1), 0px 10px 20px rgba(182, 179, 223, 0.25);
+    border-radius: 4px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.due-date-cart .cart .avatar img{
+    position: relative;
+    left: 0;
+    top: 0;
+    height: 80px;
+    width: 80px;
+    border: 4px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin-top: -15px;
+}
+.due-date-cart .cart .name{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #353B43;
+    padding-bottom: 7px;
+}
+.due-date-cart .cart .date{
+    font-size: 14px;
+    line-height: 18px;
+    color: #575E68;
+    padding-bottom: 30px;
+}
+.due-date{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #353B43;
+    padding-bottom: 40px;
+}
+.due-date-pt-40{
+    padding-top: 40px;
+}
+.name-pb-30{
+    padding-bottom: 30px !important;
+}
+.ideas-for-the-game{
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    padding-left: 64px;
+    padding-right: 64px;
+}
+.ideas-for-the-game h1{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+    color: #353B43;
+    padding-bottom: 90px;
+}
+.tabs-container{
+    padding-bottom: 120px;
+}
+.tabs-items{
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px -4px 20px rgba(182, 178, 223, 0.1), 0px 10px 20px rgba(182, 179, 223, 0.25);
+    border-radius: 5px;
+    padding-top: 42px;
+    padding-bottom: 49px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 50px;
+    min-height: 210px;
+}
+.tabs-items img{
+    padding-right: 10%;
+}
+.tabs-items .text{
+    display: flex;
+    flex-direction: column;
+}
+.tabs-items .text h2{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #353B43;
+    padding-bottom: 20px;
+}
+.tabs-items .text p{
+    font-size: 14px;
+    line-height: 16px;
+    color: #8B97A8;
+}
+.tabs-items.nav-link.active, .nav-link:hover{
+    background-color: #F4F9FF !important;
+    border-color: #F4F9FF !important;
+}
+@media (max-width: 1500px){
+    .pay-cart .check{
+        left: 55%;
+    }
+}
+@media (min-width: 768px){}
+@media (max-width: 1200px){
+    .account-settings, .ideas-for-the-game{
+        padding-top: 40px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .change-pass{
+        margin-top: 40px;
+    }
+    .pay{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .due-date{
+        text-align: center;
+    }
+    .due-date-cart .cart{
+        margin-bottom: 30px;
+    }
+    .due-date-cart .cart .btn-white{
+        padding: 15px 0;
+        width: 180px;
+        margin-right: 0;
+    }
+    .tabs-container{
+        padding-bottom: 60px;
+    }
+    .ideas-for-the-game h1{
+        padding-bottom: 60px;
+    }
+    .tabs-items{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+@media (max-width: 992px){
+    .account-settings .title{
+        text-align: center;
+    }
+    .account-settings .title h1{
+        padding-bottom: 40px;
+    }
+    .account-settings .blog-submit{
+        display: block;
+        padding-top: 30px;
+    }
+    .change-info{
+        flex-direction: column;
+    }
+    .foto-upload{
+        display: flex;
+        flex-direction: column;
+    }
+    .foto-upload img, .foto-upload .btn{
+        align-self: center;
+    }
+    .change-info-basic{
+        text-align: center;
+        padding-top: 60px;
+    }
+    .change-info-input{
+        padding-top: 20px;
+    }
+    .change-info-form{
+        margin-left: 15px;
+    }
+    .pay{
+        padding-top: 0;
+    }
+    .due-date{
+        padding-top: 30px;
+    }
+    .due-date-cart{
+        padding-bottom: 0;
+    }
+    .due-date-pt-40{
+        padding-top: 0 !important;
+    }
+    .ideas-for-the-game h1{
+        padding-bottom: 30px;
+    }
+    .tabs-container{
+        padding-bottom: 40px;
+    }
+    .tabs-items{
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 768px){
+    .avatar-name-pay p, .avatar-name-pay small{
+        display: none;
+    }
+}
+@media (max-width: 576px){
+    .account-settings .title h1{
+        font-size: 24px;
+        line-height: 28px;
+        color: #353B43;
+        padding-bottom: 30px;
+    }
+    .change-info{
+        padding: 30px 5px 30px 0px;
+    }
+    .change-info .title svg, .change-pass .title svg{
+        width: 24px;
+        height: 24px;
+    }
+    .change-info .title h2, .change-pass .title h2{
+        font-size: 14px;
+        line-height: 18px
+    }
+    .account-settings .blog-submit{
+        text-align: center;
+    }
+    .blog-submit .btn, .blog-submit .btn.btn-fon{
+        width: 90%;
+    }
+    .blog-submit .btn.btn-fon{
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .change-info-input .form-control{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .pay-avatar{
+        height: 80px;
+        width: 80px;
+    }
+    .pay-cart .check svg {
+        width: 10px;
+        height: 12px;
+    }
+    .pay-cart .check{
+        top: 75px;
+        height: 20px;
+        width: 20px;
+    }
+    .pay-cart .name{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .pay-cart .followers{
+        padding-bottom: 30px;
+    }
+    .pay-cart .pay-service{
+        font-size: 18px;
+        line-height: 20px;
+        padding-bottom: 20px;
+    }
+    .pay-cart .pay-desc{
+        font-size: 14px;
+        line-height: 18px;
+        padding-bottom: 20px;
+    }
+    .pay-cart .pay-price{
+        font-size: 18px;
+        line-height: 23px;
+        padding-bottom: 40px;
+    }
+    .pay-btn{
+        flex-direction: column;
+        align-items: center;
+    }
+    .pay-btn .btn-fon{
+        margin-bottom: 20px;
+    }
+    .pay-btn .btn-white{
+        margin-bottom: 39px;
+    }
+    .due-date-cart .cart .name{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .due-date-cart .cart .date{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .due-date{
+        font-size: 18px;
+        line-height: 21px;
+    }
+}
+@media only screen and (max-width: 1200px) and (min-width: 992px){
+    .check svg {
+        width: 19px;
+        height: 15px;
+    }
+}
+@media only screen and (max-width: 1500px) and (min-width: 1200px){
+    .tabs-items{
+        min-height: 235px;
+    }
+}

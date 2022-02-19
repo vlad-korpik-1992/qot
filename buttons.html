@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <title>Продолжаем наш квест</title>
+    <link rel="preload" href="css/bootstrap.min.css" as="style">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preload" href="css/style-13-03.css" as="style">
+    <link rel="stylesheet" href="css/style-13-03.css">
+    <link rel="preload" href="css/style-14-03.css" as="style">
+    <link rel="stylesheet" href="css/style-14-03.css">
+    <link rel="preload" href="css/style-15-03.css" as="style">
+    <link rel="stylesheet" href="css/style-15-03.css">
+    <link rel="preload" href="css/style-16-03.css" as="style">
+    <link rel="stylesheet" href="css/style-16-03.css">
+    <link rel="preload" href="css/style-22-03.css" as="style">
+    <link rel="stylesheet" href="css/style-22-03.css">
+    <link rel="preload" href="css/style-23-03.css" as="style">
+    <link rel="stylesheet" href="css/style-23-03.css">
+    <link rel="preload" href="css/buttons.css" as="style">
+    <link rel="stylesheet" href="css/buttons.css">
+</head>
+<body>
+<div class="z-depth-3 d-md-block fixed-top" id="sidebar-wrapper">
+    <div class="menu-list">
+        <div class="sidebar-heading">
+            <img itemprop="logo" class="img-fluid" src="img/logo.svg" alt="QOT" title="QOT">
+        </div>
+        <a href="/" class="list-group-item list-group-item-action">
+            <svg class="icon">
+                <use xlink:href="sprite.svg#user"></use>
+            </svg>
+            Мои аккаунты
+        </a>
+        <a href="/" class="list-group-item list-group-item-action">
+            <svg class="icon">
+                <use xlink:href="sprite.svg#video-game"></use>
+            </svg>
+            Настройки игры
+        </a>
+        <a href="/" class="list-group-item list-group-item-action">
+            <svg class="icon">
+                <use xlink:href="sprite.svg#raphael_jigsaw"></use>
+            </svg>
+            Идеи для игры
+        </a>
+        <a href="/" class="list-group-item list-group-item-action">
+            <svg class="icon">
+                <use xlink:href="sprite.svg#bx_bxs-news"></use>
+            </svg>
+            Полезные статьи
+        </a>
+        <a href="/" class="list-group-item list-group-item-action">
+            <svg class="icon">
+                <use xlink:href="sprite.svg#credit-card 1"></use>
+            </svg>
+            Оплата
+        </a>
+        <a href="/" class="list-group-item list-group-item-action">
+            <svg class="icon">
+                <use xlink:href="sprite.svg#mdi_frequently-asked-questions"></use>
+            </svg>
+            FAQ
+        </a>
+    </div>
+</div>
+<div class="d-md-none d-flex align-items-center fixed-top bg-white">
+    <div id="menu-toggle"><div class="animated-icon"><span></span><span></span><span></span><span></span></div></div>
+</div>
+<div id="page-content-wrapper">
+        <nav class="container-fluid navbar navbar-expand navbar-light d-flex align-items-center">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <img itemprop="logo" class="logo-sm-block img-fluid" src="img/logo.svg" alt="QOT" title="QOT">
+                <ul class="navbar-nav ml-auto mt-lg-0 d-flex align-items-center">
+                    <li class="nav-item">
+                        <img src="img/avatar.jpg" alt="" class="avatar-round">
+                    </li>
+                    <li class="nav-item login-md-block">
+                        <a class="nav-link" href="#">login</a>
+                    </li>
+                    <li class="nav-item active">
+                        <svg class="icon">
+                            <use xlink:href="sprite.svg#settings-gears 1"></use>
+                        </svg>
+                    </li>
+                    <li class="nav-item">
+                        <svg class="icon">
+                            <use xlink:href="sprite.svg#uil_exit"></use>
+                        </svg>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <section class="continue-our-quest">
+            <div class="container-fluid">
+                <div class="modal-buttons">
+                    <button type="button" class="btn btn-fon" data-toggle="modal" data-target="#resetModal">
+                        Сброс настроек    
+                    </button>
+                    <button type="button" class="btn btn-fon" data-toggle="modal" data-target="#addaccountModal">
+                        Добавить аккаунт    
+                    </button>
+                    <button type="button" class="btn btn-fon" data-toggle="modal" data-target="#addpointsModal">
+                        Добавить баллы    
+                    </button>
+                </div>
+                <div class="modal-buttons">
+                    <button type="button" class="btn btn-fon" data-toggle="modal" data-target="#youpaidModal">
+                        Вы оплатили    
+                    </button>
+                    <button type="button" class="btn btn-fon" data-toggle="modal" data-target="#linkModal">
+                        Ссылка    
+                    </button>
+                    <button type="button" class="btn btn-fon" data-toggle="modal" data-target="#savechangesModal">
+                        Сохранить изменения
+                    </button>
+                </div>
+                <div class="modal-buttons">
+                    <button type="button" class="btn btn-fon" data-toggle="modal" data-target="#paymentModal">
+                        Оплата
+                    </button>
+                </div> 
+            </div>
+        </section>
+        
+    </div>
+</div>
+<div class="modal fade" id="resetModal" tabindex="-1" role="dialog" aria-labelledby="resetModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body reset">
+          <img src="img/reset.png" alt="Сбросить пароль">
+          <h4>Вы точно хотите сбросить настройки?</h4>
+          <p>В случае сброса текущая игра будет остановлена с сохранением результатов.</p>
+        </div>
+        <div class="modal-footer reset">
+          <button type="button" class="btn btn-fon">Сбросить</button>
+          <button type="button" class="btn btn-white" data-dismiss="modal">Назад</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="addaccountModal" tabindex="-1" role="dialog" aria-labelledby="addaccountLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body reset">
+          <img src="img/add-account-modal.png" alt="Сбросить пароль">
+          <h4>Добавить аккаунт</h4>
+          <p>Введите имя аккаунта в поле ниже.</p>
+          <form action="#" method="post">
+            <input type="text" class="form-control" name="name" id="name" placeholder="Имя">
+            <a href="#" class="del-account">
+                <svg class="icon">
+                    <use xlink:href="sprite.svg#close"></use>
+                </svg>
+            </a>
+            <div class="addaccount">
+                <a href="#" class="add-account">
+                    <svg class="icon">
+                        <use xlink:href="sprite.svg#plus"></use>
+                    </svg>
+                    Добавить еще аккаунт
+                </a>
+            </div>
+        </div>
+        <div class="modal-footer reset">
+          <button type="semd" class="btn btn-fon mr-0">Добавить</button>
+        </div>
+    </form>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="addpointsModal" tabindex="-1" role="dialog" aria-labelledby="addpointsLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body reset not-img">
+          <h4>Добавить  баллы</h4>
+          <p>Добавление баллов юзеру belka_ctrl.</p>
+          <form action="#" method="post">
+            <input type="text" class="form-control" name="point" id="points" placeholder="Введите количество баллов">
+            <textarea id="text" class="form-control" name="text" rows="5" cols="33">За что были добавлены баллы</textarea>
+        </div>
+        <div class="modal-footer reset">
+          <button type="semd" class="btn btn-fon mr-0">Добавить</button>
+        </div>
+    </form>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="youpaidModal" tabindex="-1" role="dialog" aria-labelledby="youpaidLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body reset">
+          <img src="img/paid.png" alt="Сбросить пароль">
+          <h4>Поздравляем!</h4>
+          <p>Вы успешно оплатили пользование сервисом на 1 месяц для аккаунта username.</p>
+          <p>Разместите ссылку на результаты игры в вашем Instgram: evojdjbvjdmbkr]-vpe. Вы сможете также найти ссылку на таблицу на странице “Мои аккаунты”.</p>
+        </div>
+        <div class="modal-footer reset">
+          <button type="button" class="btn btn-fon mr-0">ОК</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="linkModal" tabindex="-1" role="dialog" aria-labelledby="linkLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body reset">
+          <img src="img/link.png" alt="Сбросить пароль">
+          <h4>Ура! Вы начали игру!</h4>
+          <p>Разместите ссылку на результаты игры в вашем Instgram: evojdjbvjdmbkr]-vpe. Вы сможете также найти ссылку на таблицу на странице “Мои аккаунты”.</p>
+        </div>
+        <div class="modal-footer reset">
+          <button type="button" class="btn btn-fon mr-0">ОК</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="savechangesModal" tabindex="-1" role="dialog" aria-labelledby="savechangesLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body reset">
+          <img src="img/savechanges.png" alt="Сбросить пароль">
+          <h4>Сохранить изменения?</h4>
+          <p>Вы поменяли настройки профиля. Новые настройки применятся после нажатия кнопки “сохранить”.</p>
+        </div>
+        <div class="modal-footer reset">
+          <button type="button" class="btn btn-fon">Сохранить</button>
+          <button type="button" class="btn btn-white" data-dismiss="modal">Отмена</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="paymentModal" tabindex="-1" role="dialog" aria-labelledby="paymentLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body pay-cart">
+            <img class="pay-avatar active" src="img/avatar.jpg" alt="Аватар аккаунт">
+            <div class="name">username</div>
+            <div class="followers">50 подписчиков</div>
+            <div class="pay-service">Оплата сервиса на 1 месяц</div>
+            <div class="pay-desc">Чтобы начать пользоваться сервисом, необходимо произвести оплату.</div>
+            <div class="pay-price">К оплате: 777.77 руб.</div>
+            <div class="pay-btn">
+                <a href="#" class="btn btn-fon">Оплатить</a>
+                <a href="#" class="btn btn-white">Назад</a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

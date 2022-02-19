@@ -1,0 +1,338 @@
+.continue-our-quest {
+    width: 100%;
+    padding-top: 60px;
+    padding-left: 64px;
+    padding-right: 64px;
+}
+.avatar-name-pay{
+    align-self: center;
+}
+.continue-quest{
+    padding-bottom: 100px;
+}
+.continue-quest .title h1{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+    color: #353B43;
+    padding-bottom: 40px;
+    margin-bottom: 0;
+}
+.continue-quest .title p{
+    font-size: 18px;
+    line-height: 23px;
+    color: #575E68;
+}
+.continue-quest .title img{
+    max-width: 100%;
+    height: auto;
+}
+.competition{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.competition h2, .the-task h2{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: #353B43;
+    padding-bottom: 30px;
+    margin-bottom: 0;
+}
+.competition p, .the-task p{
+    font-size: 18px;
+    line-height: 23px;
+    color: #575E68;
+}
+.prizec{
+    padding-bottom: 80px;
+}
+.prizec h2{
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+    color: #353B43;
+    padding-bottom: 80px;
+}
+.prizec-item{
+    background: #FFFFFF;
+    box-shadow: 0px -4px 20px rgba(182, 178, 223, 0.1), 0px 10px 20px rgba(182, 179, 223, 0.25);
+    border-radius: 10px;
+    padding: 30px 15px 20px 15px;
+    text-align: center;
+}
+.prizec-item img.places, .prizec-item img.places-img{
+    max-width: 100%;
+    height: auto;
+}
+.prizec-item img.places{
+    position: absolute;
+    top: -40px;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+.prizec-item img.places-img{
+    padding-top: 30px;
+}
+.prizec-item p{
+    text-align: left;
+    font-size: 12px;
+    line-height: 16px;
+    color: #575E68;
+    padding-top: 18px;
+}
+.fon-end-game{
+    background: #FFFFFF;
+    box-shadow: 0px -4px 20px rgba(182, 178, 223, 0.1), 0px 10px 20px rgba(182, 179, 223, 0.25);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+.end-game{
+    margin-bottom: 30px;
+}
+.end-game .title{
+    display: flex;
+    justify-content: start;
+}
+.end-game .title svg{
+    width: 45px;
+    height: 45px;
+}
+.end-game .title p{
+    font-size: 24px;
+    line-height: 31px;
+    color: #575E68;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: 25px;
+}
+.part-circle{
+    height: 64px;
+    width: 64px;
+    border: 4px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+.top-part{
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+    color: #353B43;
+    padding-bottom: 40px;
+}
+.top-part h2{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+    color: #353B43;
+}
+.top-part-slider{
+    display: flex;
+    flex-direction: column;
+}
+.top-part-slider-items{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+.top-part-slider-items.pb-0{
+    padding-bottom: 0 !important;
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+    padding-top: 15px;
+}
+.pagination-left, .pagination-right{
+    display: flex;
+}
+.pagination-chislo{
+    display: flex;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #6C63FF;
+}
+.pagination-chislo.active{
+    font-weight: bold;
+}
+.table-title{
+    padding-top: 100px;
+}
+.table-title h2{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+    color: #353B43;
+    margin-bottom: 0;
+}
+form.table-search{
+    position: relative;
+}
+form.table-search button{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    background: transparent;
+    border: none;
+}
+form.table-search button svg{
+    width: 18px;
+    height: 18px;
+}
+.table-search input{
+    background: #FFFFFF;
+    border: 1px solid #C9D2E0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 100%;
+    height: 50px;
+}
+@media (max-width: 1500px){}
+@media (max-width: 1200px){
+    .continue-our-quest{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .continue-quest{
+        padding-bottom: 80px;
+    }
+    .continue-quest .title h1{
+        padding-bottom: 30px;
+    }
+    .continue-quest .title p, .competition p, .the-task p{
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .competition{
+        padding-bottom: 30px;
+    }
+    .prizec{
+        padding-bottom: 60px;
+    }
+    .prizec h2{
+        padding-bottom: 60px;
+    }
+    .end-game .title p{
+        font-size: 22px;
+        line-height: 29px;
+    }
+}
+@media (max-width: 992px){
+    .continue-quest{
+        padding-bottom: 60px;
+    }
+    .continue-quest .title h1{
+        padding-bottom: 20px;
+    }
+    .prizec h2{
+        text-align: center;
+    }
+    .continue-our-quest .table-title{
+        padding-top: 60px;
+        text-align: center;
+    }
+    .continue-our-quest .table-title h2{
+        padding-bottom: 40px;
+    }
+}
+@media (max-width: 768px){
+    .continue-quest{
+        padding-top: 0;
+    }
+    .avatar-user.quest img.avatar-user-circle{
+        width: 49px;
+        height: 49px;
+    }
+    .quest p{
+        display: flex;
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .fon-end-game{
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+    .top-part{
+        padding-top: 0;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+}
+@media (max-width: 767px){
+    .continue-quest{
+        text-align: center;
+    }
+    .continue-quest .title h1{
+        padding-top: 60px;
+    }
+    .prizec-item{
+        margin-bottom: 80px;
+    }
+    .prizec-item p{
+        text-align: center;
+    }
+    .mb-sm-0{
+        margin-bottom: 0 !important;
+    }
+    .table-title h2{
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+        color: #353B43
+    }
+}
+@media (max-width: 576px){
+    .continue-our-quest{
+        padding-top: 20px;
+    }
+    .continue-quest{
+        padding-bottom: 40px;
+    }
+    .continue-quest .title h1{
+        font-size: 24px;
+        line-height: 28px;
+        padding-top: 40px;
+    }
+    .continue-quest .title p, .competition p, .the-task p{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .competition h2, .the-task h2{
+        font-size: 14px;
+        line-height: 18px;
+        padding-bottom: 20px;
+    }
+    .prizec{
+        padding-bottom: 50px;
+    }
+    prizec h2{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .end-game .title p{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .end-game .title svg{
+        width: 19px;
+        height: 19px;
+    }
+    .top-part h2{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .mobile-none{
+        display: none;
+    }
+}
